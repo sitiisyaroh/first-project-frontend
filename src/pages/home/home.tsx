@@ -29,7 +29,7 @@ const Home: React.FC = () => {
           My Projects
         </h1>
 
-        <div className="flex flex-row gap-5 p-6 md:p-16">
+        <div className="flex flex-col md:flex-row gap-5 p-6 md:p-16">
           <div className="flex-1">
             <Card
               imgSrc={potrait}
